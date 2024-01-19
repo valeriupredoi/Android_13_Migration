@@ -22,4 +22,5 @@
 5. Select icon that looks like four squares above keyboard on left
 6. Select button that reads Resize
 7. Scale keyboard - scaling now to 20-30% bigger!
-- right-hand side button (screen closing etc) doesn't act like a Power button anymore! For it to revert its action as power/screenshot button, go into Settings - Gestures - Press and hold power button, toggle off (FFS, Google!).
+- right-hand side button (screen closing etc) doesn't act like a Power button anymore! For it to revert its action as power/screenshot button, go into Settings - Gestures - Press and hold power button, toggle off (FFS, Google!);
+- battery drain due to "Mobile Network" (this IS NOT WiFi or mobile data; this is continual search of signal): Settings - Network and Internet - Mobile Network - toggle off Automatically select network (phone will search for network carrier, select it, and that's it) - see Battery picture after I've done that.
