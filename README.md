@@ -24,3 +24,7 @@
 7. Scale keyboard - scaling now to 20-30% bigger!
 - right-hand side button (screen closing etc) doesn't act like a Power button anymore! For it to revert its action as power/screenshot button, go into Settings - Gestures - Press and hold power button, toggle off (FFS, Google!);
 - battery drain due to "Mobile Network" (this IS NOT WiFi or mobile data; this is continual search of signal): Settings - Network and Internet - Mobile Network - toggle off Automatically select network (phone will search for network carrier, select it, and that's it) - see Battery picture after I've done that.
+
+**Chrome Issues**
+
+Since version 124.0.6367.82 (access version in Chrome with ``chrome://version``), the website rendering was completely mangled. Solution was to turn off GPU rasterization (GPU rasterization is actually useful, since it unloads a bunch of CPU-heavy computations onto the GPU - IF the GPU can handle the load, and if it can execute the code correctly); turn off option from ``chrome://flags``, search for GPU, set "GPU Rasterization" to Disabled.
